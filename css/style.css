@@ -1,0 +1,89 @@
+*{
+    margin:0;
+    padding:0;
+}
+header , footer{
+    padding: 2rem 5rem;
+    background-color: #222222;
+}
+header img, footer img{
+    width: 10rem;
+}
+.footer{
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+}
+.card {
+    min-height: 20rem;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    z-index: 1;
+    transform: scale(1.1);
+}
+
+.ico {
+    width: 10rem;
+    margin: auto;
+
+    transition: transform 0.3s ease;
+    /* Transición suave de la transformación */
+}
+
+/* Estilo para aplicar la transformación cuando el mouse está sobre la tarjeta */
+.card:hover .ico {
+    transform: scale(1.2);
+    /* Aumenta el tamaño de la imagen al 120% */
+}
+
+
+
+
+
+/*
+        li:hover {
+            background-color: chocolate;
+            border-style: inset;
+
+
+        }
+
+        body {
+            background-color: burlywood;
+            padding: 20px;
+            border-radius: 20px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+        }
+
+        ul {
+            list-style: none;
+            padding: 30px;
+            margin: 30px;
+            font-size: 200%;
+            border-style: outset;
+            border-radius: 20px;
+            border-width: 10px;
+            background-color: aquamarine
+        }
+
+        li {
+            margin: 20px;
+            border-style: outset;
+            ;
+            border-radius: 20px;
+            background-color: greenyellow;
+            text-align: center;
+        }
+
+        h1 {
+            color: royalblue;
+            background-color: bisque;
+            text-align: center;
+            border-style: groove;
+            border-radius: 10px;
+            border-width: 5px;
+            border-color: brown;
+        }*/
