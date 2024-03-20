@@ -29,13 +29,13 @@ header img, footer img{
     margin: auto;
 
     transition: transform 0.3s ease;
-    /* Transición suave de la transformación */
+   
 }
 
-/* Estilo para aplicar la transformación cuando el mouse está sobre la tarjeta */
+
 .card:hover .ico {
     transform: scale(1.2);
-    /* Aumenta el tamaño de la imagen al 120% */
+   
 }
 
 
